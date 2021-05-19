@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/04/2021, 04:12:13 PM
+    Author     : portillo
+*/
+
+
+#btn-agregar
+{
+    margin-left: 510px;
+    
+}
+
+table#tabla-inventario{
+    margin-top: 30px;
+}
+
+#titulo-modulo
+{
+    color:black;
+    font-family:Lobster, cursive;
+     text-align: center;
+}
+   
+body{
+background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+div.area-reporte
+{
+  background-color: black;
+}
+
+div#agregar-planta-form
+{
+    color:black;
+    font-family:Lobster, cursive;
+    margin-left: 60px;
+    font-size: 20px;
+    background-color: black;
+}
+div#agregar-planta-form > #entrada
+{
+    font-family: Arial;
+}
+
+#btn-reporte
+{
+    margin-left: 680px;
+}
