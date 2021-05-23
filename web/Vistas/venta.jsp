@@ -115,8 +115,8 @@
                     <td><%= venta.getTotal()%></td>
                   
                     <td>
-                        <a class="btn btn-warning" href="Controlador?accion=editar&id=<%= venta.getIdVenta()%>">Editar <i class="fa fa-edit"></i></a>
-                        <a class="btn btn-danger" href="Controlador?accion=eliminar&id=<%= venta.getIdVenta()%>">Elminar <i class="fa fa-trash"></i></a>
+                        <a class="btn btn-warning" href="VentaController?accion=editar&id=<%= venta.getIdVenta()%>">Editar <i class="fa fa-edit"></i></a>
+                        <a class="btn btn-danger" href="VentaController?accion=eliminar&id=<%= venta.getIdVenta()%>">Elminar <i class="fa fa-trash"></i></a>
                         
                     </td>
                 </tr>

@@ -96,7 +96,7 @@
             <input id="entrada" class="form-control"  type="text" name="txtDescripcion" value="<%=v.getTotal()%>"><br>
         
             <input class="btn btn-primary" type="submit" name="accion" value="Actualizar"> <br> <br> <br>
-            <a class= "btn btn-dark"href="Controlador?accion=listar">Regresar</a>
+            <a class= "btn btn-dark"href="VentaController?accion=renderizar">Regresar</a>
             </form>
               
                  <!-- /. ROW  -->           
