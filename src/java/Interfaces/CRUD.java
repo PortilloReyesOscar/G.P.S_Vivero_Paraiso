@@ -13,7 +13,7 @@ import java.util.List;
  * @author porti
  */
 public interface CRUD {
-    public List listar();
+   public List listar();
     public Planta list(int idplanta);
     public boolean add(Planta planta);
     public boolean edit(Planta planta);

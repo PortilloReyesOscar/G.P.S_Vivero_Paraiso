@@ -19,7 +19,7 @@ public class Conexion {
        private final String baseDatos = "vivero";
        public String servidor = "jdbc:postgresql://" + host + ":" + puerto + "/" + baseDatos;
        public String usuario = "postgres";
-       public String clave = "portillo24";
+       public String clave = "";
        
        //Registrar el driver
        public Connection conectar(){
